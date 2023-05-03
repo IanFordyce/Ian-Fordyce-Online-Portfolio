@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/HomePage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> Home Page</title> 
+    <meta name="Author" content="Ian Fordyce">
+    <meta data:key="" words="Ian FOrdyce, portfolio, Background, Projects, Contact Info" <meta="" data:="" description=" I am an egure IT student with skills in Databases as well as coding.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./Portfolio Home Page_files/style.css">
+</head>
+<body bgcolor="Green">
+<section>
+<section class="header"> 
+    <h2>Ian Fordyce Portfolio </h2>
+</section>
+<section class="introduction">
+    <div class="grid-container-introduction">
+        <div class="box-introduction">
+            <h2 class="box-title"> Introduction</h2>
+            <div class="introduction-content-span-2">
+                <p class="introduction-text"></p><h1>My name is Ian Fordyce, I am a current Curry College graduate with a major in IT major. I am enthusiastic in pursuing a career in website or graphic design. Throughout my college career I have worked with a variety of hard skills such as software languages like Java and C +.
+                     Database management such as Excel, Access,  SQL. Finally, I have gained a variety of skills in website design through platforms like Wix as well as coding languages such as HTML. Along with technical skills, I have also gained a variety of skills that can be used in both inside and outside of the professional setting such as project management, problem solving, time management, and analytical skills.</h1><p></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="content">
+<div class="grid-container">
+    <div class="box"><h1 class="box-title"><a href="http://127.0.0.1:5500/Background.html">BackGround </a>
+        <p>Here I talk about my Education, the skills I have learned, and my achivments</p>
+    </h1>
+    </div> 
+    <div class="box"><h1 class="box-title"><a href="http://127.0.0.1:5500/Academic%20Work.html">Academic work</a>
+        <p> Here I present examples of my work I have acomplished</p>
+    </h1>
+    </div> 
+    <div class="box"><h1 class="box-title"><a href="http://127.0.0.1:5500/Contact%20Information.html">Contact Infomation </a>
+        <p>My Resume, Linked In, and genral contact Infomation can be found were</p>
+    </h1>
+   </div> 
+</div>
+</section>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</section></body></html>
